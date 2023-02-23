@@ -1,9 +1,9 @@
 #include<stdio.h>
 void main() {
- int num,n=10;
+ int num,n1=1,n2=10;
  clrscr();
- printf("Print Odd Numbers in a given range of n:\n");
- for (num = n; num <= n; num++)
+ printf("Print Odd Numbers in a given range from n1 to n2 :\n");
+ for (num = n1; num <= n2; num++)
  {
    if (num % 2 == 1)
      printf ("%d ", num);
